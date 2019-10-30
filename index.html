@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Резюме</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-        <title>Резюме</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Ubuntu:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous" />
 </head>
 <body>
   <header>
   <nav id="navbar">
     <ul class="nav-list">
-      <li class="nav-link">Обо мне</li>
-      <li class="nav-link">Работы</li>
-      <li class="nav-link">Контакты</li>
+      <li class="nav-link"><a href="#welcome-section">Обо мне</a></li>
+      <li class="nav-link"><a href="#projects">Работы</a></li>
+      <li class="nav-link"><a href="#contacts">Контакты</a></li>
     </ul>
     </nav>
     <section id="welcome-section">
       <h1>Артем Савельев</h1>
-      <p>Разработчик</p>
+      <p>Веб-разработчик</p>
     </section>
   </header>
   <section id="projects">
-    <a src="https://codepen.io/Livsnekad42/pen/MWgjeqR" target="_blank"
+    <p id="project-header">Первые пробы пера</p>
+    <div id="project-wrap">
+    <a href="https://codepen.io/Livsnekad42/pen/MWgjeqR" target="_blank"
       class="project-tile"><img src="https://screenshot.codepen.io/3477863.MWgjeqR.small.c200361b-68f8-459a-9b8a-aa304f885627.png" alt="Example Documentation"><p>Example Documentation</p></a>
-    <a src="https://codepen.io/Livsnekad42/pen/pMmGMO" target="_blank"
+    <a href="https://codepen.io/Livsnekad42/pen/pMmGMO" target="_blank"
       class="project-tile"><img src="https://screenshot.codepen.io/3477863.pMmGMO.small.cb67cdb5-9864-47f8-a9f4-3e9ea5b43677.png" alt="Original Trombones"><p>Original Trombones</p></a>
-    <a src="https://codepen.io/Livsnekad42/pen/qeJxrx" target="_blank"
+    <a href="https://codepen.io/Livsnekad42/pen/qeJxrx" target="_blank"
       class="project-tile"><img src="https://screenshot.codepen.io/3477863.qeJxrx.small.fb6bd474-1b9b-46f9-8635-76eb92129c89.png" alt="Survey Form"><p>Survey Form</p></a>
+      </div>
   </section>
   <section id="contacts">
-    <h1>Артем Савельев</h1>
-      <p>Разработчик</p></section>
-  <div id="contact-links">
-    <a href="" target="_blank"><p>GitHub</p></a>
-    <a href="" target="_blank"><p>VK</p></a>
-    <a href="" target="_blank"><p>Написать письмо</p></a>
-    <a href="" target="_blank"><p>Позвонить</p></a>
-  </div>
+    <div id="contacts-wrap">
+    <a href="https://www.freecodecamp.org/fcc97b9e9e5-84ef-450e-93d1-c839e73981ef" target="_blank" id="profile-link"><h1>Обучаем. Заинтересован. Аналитичен</h1></a>
+    <a href="https://github.com/Livsnekad42" target="_blank" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://vk.com/id390141264" target="_blank" class="contact-link"><i class="fab fa-vk"></i> VK</a>
+    <a href="mailto:savelevartem5@gmail.com" target="_blank" class="contact-link"><i class="far fa-envelope"></i> Написать письмо</a>
+    <a href="tel:+79516007026" target="_blank" class="contact-link"><i class="fas fa-mobile-alt"></i> Позвонить</a>
+      </div>
+  </section>
   <footer id="footer">
-    <p>Это фейковое портфолио, но будет настоящее.</p>
-    <p>Для FreeCodeCamp</p>
+    <p>Портфолио было создано в качестве пет-проекта для <a href="https://www.freecodecamp.org/fcc97b9e9e5-84ef-450e-93d1-c839e73981ef">FreeCodeCamp</a></p>
+    <p>Артем Савельев. 2019</p>
   </footer>
 </body>
